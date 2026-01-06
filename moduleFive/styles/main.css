@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* Shared CSS */
+
+.color-yellow{
+    color: #FD6E0A;
+}
+
+.btn{
+    background-color: #FD6E0A;
+    padding: 18px 36px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover{
+    background-color: #e65c00;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    transform: translateY(-3px);
+}
+
+.btn2{
+    background-color: #FFF8F3;
+    padding: 18px 36px;
+    margin-left: 30px;
+    border: 2px solid #FD6E0A ;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FD6E0A;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn2:hover{
+    background-color: #FD6E0A;
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.section-text{
+    text-align: center;
+}
+
+.section-text h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-text p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+/* Main CSS */
+
+
+/*  Navigation section */
+
+header{
+    padding-top: 40px;
+    background-color: #FFF8F3;
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+.navMenu{
+    display: flex;
+    justify-content: space-between;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    align-items: center;
+}
+
+.logo{
+    font-size: 45px;
+    font-weight:bolder;
+}
+
+.menu{
+    font-size: 20px;
+   
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    justify-content: space-around;
+   align-items: center;
+}
+
+.menu ul a{
+    color: #474747;
+    text-decoration: none;
+}
+
+/* Banner section */
+
+#banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 38px 0px 210px;
+   
+}
+
+#banner .banner-content h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+#banner .banner-content p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+#banner img{
+    max-width: 600px;
+    vertical-align: middle;
+}
+
+/* About */
+#about{
+padding-top: 130px;
+
+}
+
+.about-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 131px 157px;
+    background-color: #f8ece6;;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-card h2{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+    font-weight: 400;
+}
+
+.about-card p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+/* Skill section */
+
+#skils{
+    padding-top: 130px;
+}
+.skill-section{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0px 157px;
+}
+
+.skill-items{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.skill-card{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 #0000006b;
+    max-width: 267px;
+}
+.skill-card img{
+    width: 44px;
+    margin-bottom: 30px;
+}
+
+.skill-card h2{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.skill-card p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #757575;
+    
+}
