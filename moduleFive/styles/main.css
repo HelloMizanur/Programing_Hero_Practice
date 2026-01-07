@@ -80,7 +80,7 @@ header{
     background-color: #FFF8F3;
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
 }
 
 .navMenu{
@@ -191,7 +191,6 @@ padding-top: 130px;
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0px 157px;
 }
 
 .skill-items{
@@ -223,4 +222,95 @@ padding-top: 130px;
     margin-bottom: 20px;
     color: #757575;
     
+}
+
+/* Resume */
+
+#resume{
+    padding-top: 130px;
+}
+
+.resume-section{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 70px;
+}
+
+.education h2, .experience h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-top: 30px;
+}
+
+.edu-item{
+    padding: 30px 0;
+}
+.edu-item h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.edu-item h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 10px;
+}
+.edu-item p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+.dwn{
+    display: block;
+    margin: 40px auto;
+}
+
+/* Footer */
+
+#footer{
+    padding-top: 130px;
+    background-color: #f8ece6;
+}
+
+.footer-conatainer{
+    display: flex;
+    gap: 60px;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.footer-conatainer h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 10px;
+}
+
+.footer-conatainer p{
+    font-size: 16px;
+    line-height: 18px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+input, textarea{
+    width: 460px;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 18px;
+    border: none;
 }
